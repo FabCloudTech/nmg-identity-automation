@@ -63,4 +63,4 @@ Requires the ActiveDirectory PowerShell module.
 Built during the TotalThreat 30-Day Challenge in a simulated
 healthcare environment. Northstar Medical Group is fictional.
 
-Author: [Fabella Terry]
+Author: Fabella Terry
