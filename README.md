@@ -26,6 +26,20 @@ Every account has a last authentication date. It doesn't care if
 HR filed the right form or it two systems spell someone's name the same way.
 It just knows when someone last logged in, of if they never did.
 
+## Before you start
+
+- Windows Server with the ActiveDirectory PowerShell module
+
+      Import-Module ActiveDirectory
+
+- Rights to modify user objects in the domain
+- An authorising ticket number, in the form NMG-0000
+- A Disabled Users OU at the root of the domain
+- A writable reports folder. Create it if it does not exist:
+
+      New-Item -Path "C:\Reports\Offboarding" -ItemType Directory -Force
+
+
 ## Tools
 
 ### Find-StaleAccounts.ps1
