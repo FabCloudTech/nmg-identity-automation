@@ -1,4 +1,4 @@
-# NMG Identity Automation
+# NMG Identity Automation With Powershell
 
 PowerShell tooling for identity lifecycle management, built for
 Northstar Medical Group.
