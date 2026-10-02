@@ -15,7 +15,7 @@ with nobody behind them.
 
 Someone eventually did it by hand. 23 stale accounts, 11 hours , spread across four days.
 Even then, it couldn't catch everything, no way to spot people whose
-departure was never logged anywhere,, contractors who never showed up in a payroll,
+departure was never logged anywhere, contractors who never showed up in a payroll,
 or service accounts that were never tied to a person in the first place.
 
 ## The Approach
@@ -23,7 +23,7 @@ or service accounts that were never tied to a person in the first place.
 Stop trusting paperwork.Ask the domain controller instead.
 
 Every account has a last authentication date. It doesn't care if
-HR filed the right form or it two systems spell someone's name the same way.
+HR filed the right form or if two systems spell someone's name the same way.
 It just knows when someone last logged in, of if they never did.
 
 ## Before you start
@@ -44,8 +44,8 @@ It just knows when someone last logged in, of if they never did.
 
 ### Find-StaleAccounts.ps1
 
-Flags enabled accounts that haven't authenticated in X days, plus accouts that
-have never authenticated at all.Every run produces a timestampped CSV and a
+Flags enabled accounts that haven't authenticated in X days, plus accounts that
+have never authenticated at all.Every run produces a timestamped CSV and a
 summary file, so the exact question behind the numbers never gets lost.
 .\Find-StaleAccounts.ps1
     .\Find-StaleAccounts.ps1 -Days 30
@@ -167,7 +167,7 @@ any change at all, and tells you why.
 
 The CSV of group memberships is the only record that will ever
 exist of what an account could reach beforehand. Active Directory keeps no
-history of a removed memberships.
+history of removed memberships.
 
 
 ## Known limitations
